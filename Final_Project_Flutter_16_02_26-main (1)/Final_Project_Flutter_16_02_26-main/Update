@@ -1,0 +1,33 @@
+prsentation / screen / admin / room_management_screen.dart
+246 line -----
+'http://192.168.0.103:8080${room.images}',
+'http://192.168.20.50:8080${room.images}',  TSP
+
+
+1. room image asche na
+2. Booking e update hocche na
+3. hr management e leave create kora jacche na / back button kaj korche na
+
+
+
+
+
+4.Setting asche na pore korbo age guest koro
+5. InvoicePrintService    InvoiceScreen    PaymentManagementScreen  450 line  (kaj kora hoy ni)
+
+
+
+
+
+
+
+
+
+// lib/data/local/database/database_helper.dart
+    await db.insert('guest_users', {
+        'name': 'Akash User',
+        'email': 'Akash@guest.com',
+        'phone': '+8801712345678',
+        'address': 'Dhaka, Bangladesh',
+        'isLoggedIn': 0,
+      });
